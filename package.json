@@ -1,0 +1,20 @@
+{
+  "name": "projects-api",
+  "version": "1.0.0",
+  "description": "Content API for my portfolio site.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Jared Parker",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "projects-db": "git+https://github.com/jaredparker/projects-db.git"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
